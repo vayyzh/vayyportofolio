@@ -1,0 +1,470 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Vanzany Hidayani">
+
+    <title>Vanzany — Portfolio</title>
+
+    <link rel="icon" href="assets/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Remix Icon -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="load-logo">
+            Vayy<span>.</span>
+        </div>
+
+        <div class="load-track">
+            <div class="load-bar"></div>
+        </div>
+
+        <p>Memuat portfolio...</p>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+
+            <a class="brand" href="#beranda">
+                Vayy<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Buka menu"
+            >
+                <i class="ri-menu-line"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li>
+                    <a href="#beranda" class="active">Beranda</a>
+                </li>
+
+                <li>
+                    <a href="#tentang">Tentang</a>
+                </li>
+
+                <li>
+                    <a href="#proyek">Portofolio</a>
+                </li>
+
+                <li>
+                    <a href="#kontak">Kontak</a>
+                </li>
+
+                <li class="nav-cta">
+                    <a class="btn-primary" href="#kontak">
+                        Hubungi
+                        <i class="ri-send-plane-line"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <main class="container">
+
+        <!-- Hero Section -->
+        <section id="beranda" class="hero">
+
+            <div class="hero-copy">
+
+                <div class="availability reveal">
+                    <span class="pulse"></span>
+                    Available for collaboration
+                </div>
+
+                <h1>
+                    <span class="hero-line">Hi, I'm</span>
+                    <span class="hero-line gradient-text">Vanzany</span>
+                    <span class="hero-line">Hidayani</span>
+                </h1>
+
+                <p class="hero-desc reveal">
+                    Mahasiswa Teknik Komputer yang memiliki ketertarikan pada dunia teknologi, pemrograman, dan elektronika. Tertarik mengembangkan sistem berbasis mikrokontroler, mempelajari hardware dan software, serta menciptakan solusi teknologi yang inovatif dan bermanfaat.
+                </p>
+
+                <div class="hero-actions reveal">
+
+                    <a
+                        class="btn-primary magnetic"
+                        href="assets/resume_alia/resumevany.pdf"
+                        target="_blank"
+                    >
+                        Download CV
+                        <i class="ri-download-cloud-line"></i>
+                    </a>
+
+                    <a class="btn-secondary magnetic" href="#tentang">
+                        Tentang Saya
+                        <i class="ri-arrow-down-line"></i>
+                    </a>
+
+                </div>
+
+                <!-- Statistics -->
+                <div class="stats reveal">
+
+                    <div>
+                        <div class="stat-number">
+                            <i class="ri-trophy-line"></i>
+                            <b data-count="5">0+</b>
+                        </div>
+                        <p>Achievements</p>
+                    </div>
+
+                    <div>
+                        <div class="stat-number">
+                            <i class="ri-time-line"></i>
+                            <b data-count="3">0+</b>
+                        </div>
+                        <p>Years Experience</p>
+                    </div>
+
+                    <div>
+                        <div class="stat-number">
+                            <i class="ri-team-line"></i>
+                            <b data-count="4">0+</b>
+                        </div>
+                        <p>Organizations</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Hero Image -->
+            <div class="hero-visual reveal">
+
+                <div class="hero-glow"></div>
+
+                <div class="hero-frame">
+                    <img
+                        src="assets/foto-diri.jpg"
+                        alt="Alia Risky Fauziah"
+                    >
+                </div>
+
+                <div class="floating-tag">
+                    <i class="ri-mic-line"></i>
+                    Junior Komputer Engineer
+                </div>
+
+            </div>
+
+            <a href="#tentang" class="scroll-cue">
+                SCROLL
+                <i class="ri-arrow-down-line"></i>
+            </a>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section id="tentang" class="section">
+
+            <header class="section-header">
+                <span class="section-badge">Tentang Saya</span>
+                <h2>Who Am I?</h2>
+            </header>
+
+            <div class="about-card reveal">
+
+                <img
+                    src="assets/foto-diri.jpg"
+                    alt="Alia"
+                    class="about-photo"
+                >
+
+                <div>
+                    <h3>Alia Risky Fauziah</h3>
+
+                    <p class="study">
+                        <i class="ri-book-open-line"></i>
+                        Teknik Komputer · Politeknik Negeri Jember
+                    </p>
+
+                    <p>
+                        Halo semuanya! Perkenalkan, nama saya Vanzany Hidayani, kalian bisa memanggil saya Vany. Saat ini saya merupakan mahasiswa Teknik Komputer yang memiliki ketertarikan besar pada dunia teknologi, pemrograman, dan pengembangan perangkat keras.
+
+Saya memiliki minat dalam mempelajari bagaimana perangkat keras (hardware) dan perangkat lunak (software) dapat bekerja sama untuk menciptakan berbagai inovasi. Saya senang mempelajari bahasa pemrograman, mengembangkan proyek berbasis mikrokontroler, bereksperimen dengan elektronika, serta mengeksplorasi sistem komputer.
+
+Di waktu luang, saya senang mengerjakan proyek teknologi, mempelajari hal-hal baru, dan mengembangkan kemampuan dalam memecahkan masalah. Saya selalu antusias untuk mendapatkan pengalaman, menghadapi tantangan baru, dan mewujudkan ide-ide kreatif menjadi sesuatu yang bermanfaat.
+
+Salam kenal semuanya! 👋
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Organization -->
+            <div class="subsection">
+
+                <header class="section-header left">
+                    <span class="section-badge">Aktivitas</span>
+                    <h2>Organization</h2>
+                    <p>
+                        Beberapa organisasi yang pernah saya ikuti
+                        sampai sekarang
+                    </p>
+                </header>
+
+                <div class="org-grid" id="orgGrid"></div>
+
+            </div>
+
+
+            <!-- Education -->
+            <div class="subsection">
+
+                <header class="section-header left">
+                    <span class="section-badge">Riwayat</span>
+                    <h2>Education</h2>
+                    <p>
+                        Jenjang pendidikan yang pernah saya tempuh
+                    </p>
+                </header>
+
+                <div class="timeline" id="educationList"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Portfolio Section -->
+        <section id="proyek" class="section">
+
+            <header class="section-header">
+                <span class="section-badge">Karya Saya</span>
+                <h2>Portfolio</h2>
+                <p>
+                    Beberapa kegiatan dan pencapaian yang pernah saya raih
+                </p>
+            </header>
+
+            <div class="project-grid" id="projectGrid"></div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="kontak" class="section">
+
+            <header class="section-header">
+                <span class="section-badge">Hubungi Saya</span>
+                <h2>Contact</h2>
+                <p>
+                    Ingin berkolaborasi atau sekadar menyapa?
+                    Kirim pesan ke saya!
+                </p>
+            </header>
+
+
+            <div class="contact-wrap reveal">
+
+                <!-- Contact Form -->
+                <form
+                    class="contact-form"
+                    action="https://formsubmit.co/hidayanivanzany@gmail.com"
+                    method="POST"
+                    autocomplete="off"
+                >
+
+                    <input
+                        type="hidden"
+                        name="_subject"
+                        value="Pesan dari Portfolio Alia"
+                    >
+
+                    <div class="field">
+                        <label>
+                            <i class="ri-user-line"></i>
+                            Nama Lengkap
+                        </label>
+
+                        <input
+                            name="nama"
+                            type="text"
+                            placeholder="Nama kamu..."
+                            required
+                        >
+                    </div>
+
+
+                    <div class="field">
+                        <label>
+                            <i class="ri-mail-line"></i>
+                            Email
+                        </label>
+
+                        <input
+                            name="email"
+                            type="email"
+                            placeholder="email@kamu.com"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="field">
+                        <label for="pesan">
+                            <i class="ri-chat-3-line"></i>
+                            Pesan
+                        </label>
+
+                        <textarea
+                            name="pesan"
+                            id="pesan"
+                            rows="5"
+                            placeholder="Tulis pesanmu di sini..."
+                            required
+                        ></textarea>
+                    </div>
+
+
+                    <button
+                        class="btn-primary submit-btn"
+                        type="submit"
+                    >
+                        Kirim Pesan
+                        <i class="ri-send-plane-line"></i>
+                    </button>
+
+                </form>
+
+
+                <!-- Social Media -->
+                <div class="socials">
+
+                    <a
+                        href="https://www.instagram.com/vazhdyn/"
+                        target="_blank"
+                    >
+                        <i class="ri-instagram-fill"></i>
+                        Instagram
+                    </a>
+
+                    <a
+                        href="https://wa.me/62895329885175"
+                        target="_blank"
+                    >
+                        <i class="ri-whatsapp-fill"></i>
+                        WhatsApp
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+
+            <div class="footer-top">
+
+                <div>
+                    <h2>Vayy<span>.</span></h2>
+                    <p>
+                        Teknik Komputer · Politeknik Negeri Jember
+                    </p>
+                </div>
+
+
+                <!-- Footer Navigation -->
+                <div class="footer-nav">
+                    <a href="#beranda">Beranda</a>
+                    <a href="#tentang">Tentang</a>
+                    <a href="#proyek">Portofolio</a>
+                    <a href="#kontak">Kontak</a>
+                </div>
+
+
+                <!-- Footer Social -->
+                <div class="footer-social">
+
+                    <a
+                        href="https://www.instagram.com/vazhdyn/"
+                        aria-label="Instagram"
+                    >
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+
+                    <a
+                        href="https://wa.me/62895329885175"
+                        aria-label="WhatsApp"
+                    >
+                        <i class="ri-whatsapp-fill"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+
+                <span>
+                    © <span id="year"></span>
+                    Vanzany Hidayani. All rights reserved.
+                </span>
+
+                <span>
+                    Made with
+                    <i class="ri-heart-fill"></i>
+                    in Indonesia
+                </span>
+
+            </div>
+
+        </footer>
+
+    </main>
+
+
+    <!-- Back To Top Button -->
+    <button
+        id="backTop"
+        class="back-top"
+        aria-label="Kembali ke atas"
+    >
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+
+    <!-- JavaScript -->
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
