@@ -26,7 +26,7 @@ window.PORTFOLIO_DATA = {
     [
       "assets/tools/polije.png",
       "Politeknik Negeri Jember",
-      "Prodi Pendidikan Bahasa Inggris"
+      "Fakultas Teknologi Informasi"
     ]
   ],
   "projects": [
