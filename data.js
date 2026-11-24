@@ -26,7 +26,7 @@ window.PORTFOLIO_DATA = {
     [
       "assets/tools/polije.png",
       "Politeknik Negeri Jember",
-      "Fakultas Teknologi Informasi"
+      "Prodi Pendidikan Bahasa Inggris"
     ]
   ],
   "projects": [
@@ -42,14 +42,14 @@ window.PORTFOLIO_DATA = {
       "assets/proyek/project1.png"
     ],
     [
-      "assets/proyek/sertif2.png",
-      "Sertifikat Volunter",
-      "Sertifikat Volunter Gema Katulistiwa Simfoni Bayang dan Samudra",
+      "assets/proyek/project2.jpeg",
+      "Project RObotika Mini Soccer",
+      "Project RObotika Mini Soccer dengan menggunakan Arduino",
       [
-        "Volunteer",
-        "Simfoni"
+        "Arduino",
+        "Robotika"
       ],
-      "assets/proyek/sertif2.png"
+      "assets/proyek/project2.jpeg"
     ],
     [
       "assets/proyek/sertif4.png",
