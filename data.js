@@ -43,8 +43,8 @@ window.PORTFOLIO_DATA = {
     ],
     [
       "assets/proyek/project2.jpeg",
-      "Project RObotika Mini Soccer",
-      "Project RObotika Mini Soccer dengan menggunakan Arduino",
+      "Project Robotika Mini Soccer",
+      "Project Robotika Mini Soccer dengan menggunakan Arduino",
       [
         "Arduino",
         "Robotika"
